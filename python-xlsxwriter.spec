@@ -8,6 +8,7 @@ Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/X/XlsxWriter/XlsxWriter-%{version}.tar.gz
 # Source0-md5:	490074368f784c4a06295a5dca2c0d7d
 URL:		https://github.com/jmcnamara/XlsxWriter
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 Requires:	python-libs >= 1:2.5
 BuildArch:	noarch
